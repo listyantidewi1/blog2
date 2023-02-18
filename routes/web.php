@@ -36,8 +36,8 @@ Route::redirect('/dua', '/kedua');
 Route::redirect('/google', 'http://www.google.com');
 
 //route parameter
-Route::get('/user/{id}', function (string $id) {
-    return 'user'.$id;
+Route::get('/admin/{id}', function (string $id) {
+    return 'admin'.$id;
 });
 
 //route opsional
